@@ -47,7 +47,7 @@ Define `config.PIN_DHT`and connect the DHT22 to that PIN.
 
 ## WS2801 led strip stuff
 
-https://github.com/dirkmb/npfng
+https://github.com/dirkmb/npfng-ledstrip
 
 Work in progress
 
