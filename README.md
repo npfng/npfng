@@ -12,7 +12,7 @@ Documentation incomplete
 Copy `example_config.lua` to `config.lua` and put your wifi credentials and settings in it.  
 Activate the plugins you want to use by adding them to the PLUGINS array (plugin name = filename without `lua` ending).
 
-Upload the files `init.lua`, `config.lua`, `wifi_connect.lua` and the plugins you activated (with their dependencies)
+Upload the files `init.lua`, `config.lua`, `pluginloader.lua`, `wifi_connect.lua` and the plugins you activated (with their dependencies)
 to your ESP.
 
 ```
