@@ -1,5 +1,12 @@
 # EPS8266 plugin framework
 
+WORK IN PROGRESS  
+
+
+Software unstable, alpha, ...  
+Documentation incomplete  
+
+
 ## Getting this to work
 
 Copy `example_config.lua` to `config.lua` and put your wifi credentials and settings in it.  
