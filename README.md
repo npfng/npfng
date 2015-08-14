@@ -45,6 +45,13 @@ Push DHT22 data with ESP8266 to api.dusti.xyz
 Define `config.PIN_DHT`and connect the DHT22 to that PIN.
 
 
+## WS2801 led strip stuff
+
+https://github.com/dirkmb/npfng
+
+Work in progress
+
+
 # External sources
 
 * `NodeMCU` from https://github.com/nodemcu/nodemcu-firmware
