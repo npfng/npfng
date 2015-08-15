@@ -20,7 +20,7 @@ end
 
 print('Waiting 3 seconds before continuing... Press GPIO 0 to interrupt')
 if config.PIN_RGB_LED then
-    ws2812.write(config.PIN_RGB_LED, string.char(50, 0, 50))
+    ws2812.write(config.PIN_RGB_LED, string.char(0, 50, 50))
 end
 tmr.alarm(0, 3000, 0, go)
 
