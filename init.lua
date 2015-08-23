@@ -6,7 +6,9 @@ local config = require('config')
 
 function go()
     gpio.mode(3, gpio.OUTPUT)
-    ws2812.write(config.PIN_RGB_LED, string.char(0, 0, 0))
+    if config.PIN_RGB_LED then
+        ws2812.write(config.PIN_RGB_LED, string.char(0, 0, 0))
+    end
     if config.SKIP_WIFI_CONNECT then
         local plugin_loader = require('pluginloader')
         plugin_loader.start_plugins()
