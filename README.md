@@ -58,6 +58,12 @@ https://github.com/dirkmb/npfng-ledstrip
 
 Work in progress
 
+## Doorguard
+
+https://github.com/asmaps/npfng-doorguard
+
+Doorguard plugin for npfng. Monitor your doors and windows with reed switches from a central master node.
+
 
 # External sources
 
