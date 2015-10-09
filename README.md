@@ -64,6 +64,13 @@ https://github.com/asmaps/npfng-doorguard
 
 Doorguard plugin for npfng. Monitor your doors and windows with reed switches from a central master node.
 
+# Writing your own plugin
+
+1. Create a new git repo called how you want to name your plugin typically `npfng-<pluginname>`
+2. Copy the contents of the folder [plugin_template](https://github.com/npfng/npfng/blob/master/plugin_template/) into
+   your plugin repo
+3. Fill out the `README.md` and rename `pluginname.lua` according to your plugin name.
+4. Put your code into `pluginname.lua`. The `start()` function will be called when your plugin is loaded.
 
 # External sources
 
