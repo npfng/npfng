@@ -67,10 +67,12 @@ Doorguard plugin for npfng. Monitor your doors and windows with reed switches fr
 # Writing your own plugin
 
 1. Create a new git repo called how you want to name your plugin typically `npfng-<pluginname>`
-2. Copy the contents of the folder [plugin_template](https://github.com/npfng/npfng/blob/master/plugin_template/) into
+2. Copy the contents of the folder [plugin_template](https://github.com/npfng/npfng/tree/master/plugin_template) into
    your plugin repo
-3. Fill out the `README.md` and rename `pluginname.lua` according to your plugin name.
-4. Put your code into `pluginname.lua`. The `start()` function will be called when your plugin is loaded.
+3. Probably you also want to copy the
+   [example_config.lua](https://github.com/npfng/npfng/blob/master/example_config.lua) as a starting point.
+4. Fill out the `README.md` and rename `pluginname.lua` according to your plugin name.
+5. Put your code into `pluginname.lua`. The `start()` function will be called when your plugin is loaded.
 
 # External sources
 
