@@ -2,8 +2,13 @@ local config = require('config')
 
 -- setup
 wifi.setmode(wifi.STATION)
-wifi.sta.autoconnect(1)
 wifi.sta.config(config.WIFI_SSID, config.WIFI_KEY)
+if config.WIFI_IP then
+    wifi.sta.setip(config.WIFI_IP)
+    wifi.sta.connect()
+else
+    wifi.sta.autoconnect(1)
+end
 
 print('MAC: ',wifi.sta.getmac())
 
